@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
  *main -print quote
@@ -10,6 +11,6 @@
 
 int main(void)
 {
-	fwrite(2, "and that peice of art is useful\" - Dora Korpar, 2015-1019\n", 59);
+	write(2, "and that peice of art is useful\" - Dora Korpar, 2015-1019\n", 59);
 	return (1);
 }
