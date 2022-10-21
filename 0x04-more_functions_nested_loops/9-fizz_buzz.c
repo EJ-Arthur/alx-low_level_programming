@@ -20,6 +20,8 @@ int main(void)
 			printf("Buzz");
 		else
 			printf("%d", i);
+		if (i < 100)
+			_putchar(' ');
 	}
 	_putchar('\n');
 }
