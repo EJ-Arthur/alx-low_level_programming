@@ -8,11 +8,11 @@
 
 void more_numbers(void)
 {
-	char i = '0', ii;
+	int i = 0, ii;
 
-	while (i < '10')
+	while (i < 10)
 	{
-		for (ii = '0'; ii <= '14'; i++)
+		for (ii = 0; ii <= 14; i++)
 		{
 			_putchar(ii);
 		}
