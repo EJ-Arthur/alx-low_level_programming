@@ -8,17 +8,14 @@
 
 void more_numbers(void)
 {
-	int i, ii;
+	int i, j;
 
 	for (i = 0; i < 10; i++)
 	{
-		for (ii = 0; ii <= 14; ii++)
+		for (j = 0; j <= 14; j++)
 		{
-			if (ii > 10)
-			{
-				_putchar('1');
-			}
-
+			if (j > 10)
+			_putchar('1');
 			_putchar(ii % 10 + '0');
 		}
 
