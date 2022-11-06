@@ -1,0 +1,18 @@
+#include "main.h"
+
+/**
+ * swap_int - swaps the values of two integers
+ * @a: first integer
+ * @b: second integer
+ * @tmp: temporary container
+ * Return - always void
+ */
+
+void swap_int(*a, *b)
+{
+	int tmp;
+
+	tmp = *a;
+	*a = *b;
+	*b = tmp;
+}
