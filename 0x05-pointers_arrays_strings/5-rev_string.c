@@ -8,12 +8,12 @@
 
 void rev_string(char *s)
 {
-	int i, x, y = 0;
+	int i = 0, x, y;
 	char d;
 
 	for (; s[i];)
 		i++;
-	y = i - 1; /*size of the string */
+	y = i; /*size of the string */
 
 	for (x = i; y >= 0 && x < y ; x++, y--)
 	{
@@ -21,5 +21,4 @@ void rev_string(char *s)
 		s[x] = s[y];
 		s[y] = d;
 	}
-	_putchar('\n');
 }
