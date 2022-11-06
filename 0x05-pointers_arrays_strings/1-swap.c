@@ -4,11 +4,10 @@
  * swap_int - swaps the values of two integers
  * @a: first integer
  * @b: second integer
- * @tmp: temporary container
  * Return - always void
  */
 
-void swap_int(*a, *b)
+void swap_int(int *a, int *b)
 {
 	int tmp;
 
